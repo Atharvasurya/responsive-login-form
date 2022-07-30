@@ -1,0 +1,106 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  box-sizing: border-box;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  }
+
+  .col-1 h1 {
+  text-align: center;
+  color: #fff;
+  margin-top: 133px;
+  line-height: 4rem;
+  font-size: 45px;
+  }
+
+ .box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+  }
+
+  .box .box-outer {
+  position: relative;
+  }
+
+  .col-outer{
+  color: #fff;
+  font-size: 18px;
+  }
+
+  .box .col-outer input{
+  font-size: 15px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  }
+
+  .btn{
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(30,82,210,1) 100%, rgba(7,28,93,1) 100%, rgba(121,9,9,1) 100%, rgba(0,212,255,1) 100%);
+  width: 319px;
+  height: 35px;
+  border: none;
+  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 11px; 
+  border-radius: 10px;
+  }
+
+  .for-forgotten-password{
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  }
+
+  span a{
+  color: rgba(66, 135, 245);
+  line-height: 2rem;
+  padding: 1px;
+  }
+
+  @media screen and (max-width: 600px){
+  .col-1 h1{
+  font-size: 45px;
+  }
+
+  .box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 330px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+  }
+
+  .col-outer{
+  color: #fff;
+  font-size: 18px;
+  }
+
+  .btn{
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(30,82,210,1) 100%, rgba(7,28,93,1) 100%, rgba(121,9,9,1) 100%, rgba(0,212,255,1) 100%);
+  width: 250px;
+  height: 35px;
+  border: none;
+  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 11px; 
+  border-radius: 10px;
+  }
+}
+
+
