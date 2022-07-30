@@ -70,9 +70,24 @@ body{
   @media screen and (max-width: 600px){
   .col-1 h1{
   font-size: 45px;
-    display: flow-root;
+  display: block;
   }
+}
 
+@media screen and (max-width: 500px){
+  .col-1 h1{
+    font-size: 45px;
+    margin-top: 10px;
+    }
+}
+
+  @media screen and (max-width: 800px){
+    .col-1 h1{
+    font-size: 45px;
+    margin-top: 84px;
+    }
+
+    @media screen and (max-width: 600px){
   .box{
   position: absolute;
   top: 50%;
@@ -105,3 +120,4 @@ body{
 }
 
 
+  }
